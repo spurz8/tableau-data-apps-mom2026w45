@@ -1,4 +1,3 @@
-# tableau-data-apps-mom2026w45
 First Tableau Data App - style viz for MakeoverMonday 2026 Week 45, exploring Hot Air Balloons data. 
 
 # 🎈 Hot Air Balloons | an explorer
@@ -63,50 +62,37 @@ This app was built in a conversation with Claude. These are the prompts I used, 
 <summary><b>1. Getting started</b></summary>
 > Hi, I want to create a Tableau Data app but not sure how to get started - can you walk me through the process so I can get to creating one today?
  
-> can I create a tableau data app that's hosted on tableau public?
- 
-> what about this one? https://public.tableau.com/app/profile/rob.taylor6175/viz/MajorMarathons2000-2026/SixMajors
- 
-> Can we do that together?
+> Can I create a tableau data app that's hosted on tableau public?
  
 When Claude asked about data, hosting and style, I chose to share my own file and to host on GitHub Pages, and for the style I answered:
  
-> my data viz style which you can see via these two vizzes: https://public.tableau.com/app/profile/serena.purslow/viz/TheUpdatedVisualVocabulary/VisualVocabularyEntryPage and https://public.tableau.com/app/profile/serena.purslow/viz/HumanResourcesDashboard-RWFD/Overview
+> My data viz style which you can see via these two vizzes: https://public.tableau.com/app/profile/serena.purslow/viz/TheUpdatedVisualVocabulary/VisualVocabularyEntryPage and https://public.tableau.com/app/profile/serena.purslow/viz/HumanResourcesDashboard-RWFD/Overview
  
 </details>
 <details>
 <summary><b>2. The brief</b></summary>
-> this is the data, that comes from this website - https://thehabdatabase.com/ - for this makeover monday challenge - https://makeovermonday.vercel.app/dataset/hot-air-balloons. What I'd like to do is create an interactive explorer of the different hot air balloons, being able to explore them by size, location, pilots and locations to see trends. I'd like the visuals to be really cool with some hot balloon designs and I'd love it if there could be the occasional hot air balloon floating in the background from the bottom to the top of the page then disappearring but I don't know if that's possible
+> This is the data, that comes from this website - https://thehabdatabase.com/ - for this makeover monday challenge - https://makeovermonday.vercel.app/dataset/hot-air-balloons. What I'd like to do is create an interactive explorer of the different hot air balloons, being able to explore them by size, location, pilots and locations to see trends. I'd like the visuals to be really cool with some hot balloon designs and I'd love it if there could be the occasional hot air balloon floating in the background from the bottom to the top of the page then disappearing.
  
 </details>
 <details>
 <summary><b>3. Making the interactions make sense, and a more whimsical look</b></summary>
-> That's really awesome! There's a few changes I'd like before we do anything with it. Some of the click to filter actions don't make sense - for example on the location page, why would you filter the by the UK as it doesn't relate to any other data in the view? Can you review some of the filter actions to make sure they make sense. The second thing is the general design, whilst it looks really like my style, I'd like it to be a little more whimsical - perhaps something that looks a bit more like this: https://public.tableau.com/app/profile/shreya.arya/viz/KYOTOJAPANCherryblossomseasonalityB2VB/CherryBlossoms - but still using my colours and general look. But otherwise this is awesome! Can you also edit the design acknowledgment to include yourself?
- 
-> I also would love it if the hot air balloons were more visible
+>There's a few changes I'd like before we do anything with it. Some of the click to filter actions don't make sense - for example on the location page, why would you filter the by the UK as it doesn't relate to any other data in the view? Can you review some of the filter actions to make sure they make sense. The second thing is the general design, whilst it looks really like my style, I'd like it to be a little more whimsical - perhaps something that looks a bit more like this: https://public.tableau.com/app/profile/shreya.arya/viz/KYOTOJAPANCherryblossomseasonalityB2VB/CherryBlossoms - but still using my colours and general look. Can you also edit the design acknowledgment to include Claude? I also would love it if the hot air balloons were more visible.
  
 </details>
 <details>
 <summary><b>4. Finding the middle ground</b></summary>
-> Okay lets go somewhere in between. I think now the background is too bright that it's in competition with the actual bits of the viz, and I still prefer the navigation being on the left hand side. I also don't like the hot air balloons at the end of the bars as it makes it difficult to read, and I prefer the bars to be thicker. But I love the general background with the moving clouds but I don't like the swirly bits at the bottom. Also why is it called envelope volume/size? would it be better to say balloon?
+> Okay lets go somewhere in between. I think now the background is too bright that it's in competition with the actual bits of the viz, and I still prefer the navigation being on the left hand side. I also don't like the hot air balloons at the end of the bars as it makes it difficult to read, and I prefer the bars to be thicker. But I love the general background with the moving clouds but I don't like the swirly bits at the bottom. Also why is it called envelope volume/size? Would it be better to say balloon?
  
 </details>
 <details>
 <summary><b>5. Polishing</b></summary>
-> Okay loving it. Have a few more thoughts. I think the background could be a tiny bit paler, and a few less balloons floating up. For the balloon KPIs I'd like the colours to be a bit brighter. For the title - make it a little bigger and reduce the intensity of the colours in the subtitle. I'd like the navigation panel to align all the way to the bottom, matching the bottom point of the other chart sections. On the Overview page - the balloons by type could do with some sort of % of total visual in there. On the location page - I'd like the bar charts in the meet the balloons section to take up more of the space, so there's less white space below them. In the pilots and owners section - the biggest fleets is that a top 20 or random selection or all the fleets? Otherwise loving it.
+> Okay loving it. Have a few more thoughts. I think the background could be a tiny bit paler, and a few less balloons floating up. For the balloon KPIs I'd like the colours to be a bit brighter. For the title - make it a little bigger and reduce the intensity of the colours in the subtitle. I'd like the navigation panel to align all the way to the bottom, matching the bottom point of the other chart sections. On the Overview page - the balloons by type could do with some sort of % of total visual in there. On the location page - I'd like the bar charts in the meet the balloons section to take up more of the space, so there's less white space below them. In the pilots and owners section - the biggest fleets is that a top 20 or random selection or all the fleets? 
  
-> The featured fleet section shouldn't have white space at the bottom - can we make it take up that whole box, and then I'd prefer the balloons by type bar to be a bit more transparent, and underneath the balloons. With regards to colours  - on the overview page, purple is used to mean quite a few things - perhaps we should change the colour on the balloons per year chart to be a bit different? I think those should be the last changes
+> The featured fleet section shouldn't have white space at the bottom - can we make it take up that whole box, and then I'd prefer the balloons by type bar to be a bit more transparent, and underneath the balloons. With regards to colours  - on the overview page, purple is used to mean quite a few things - perhaps we should change the colour on the balloons per year chart to be a bit different? 
  
-> Sorry a couple more edits. The balloon KPIs - I don't like the stripes, can we make them an ombre/radial fade type effect? and then I don't like the colours on the balloons built per year, can we make the green a touch more vibrant and then the shade different between out of service and unknown a bit stronger? also does cu ft mean cubic feet? I think this should be detailed somewhere if possible on the sizes charts. Or would it make more sense to write cubic feet as ft3? not sure
+> The balloon KPIs - I don't like the stripes, can we make them an ombre/radial fade type effect? and then I don't like the colours on the balloons built per year, can we make the green a touch more vibrant and then the shade different between out of service and unknown a bit stronger? also does cu ft mean cubic feet? I think this should be detailed somewhere if possible on the sizes charts. Or would it make more sense to write cubic feet as ft3? not sure
  
 > Okay great. Final thing can you add somewhere which makeover monday challenge it was, perhaps above the title and at the bottom?
- 
-</details>
-<details>
-<summary><b>6. Publishing</b></summary>
-> what settings does my repo need? .gitignore or license?
- 
-> Can you write me a nice readme page including my prompts?
  
 </details>
 ---
