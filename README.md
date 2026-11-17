@@ -4,7 +4,7 @@ First Tableau Data App - style viz for MakeoverMonday 2026 Week 45, exploring Ho
  
 An interactive explorer of **7,235 hot air balloons** from [The HAB Database](https://thehabdatabase.com/), built for **[#MakeoverMonday 2026 · Week 45: Hot Air Balloons](https://makeovermonday.vercel.app/dataset/hot-air-balloons)** (9 November 2026).
  
-**▶ Live app:** `https://<your-username>.github.io/hot-air-balloon-explorer/`
+**▶ Live app:** `https://spurz8.github.io/hot-air-balloon-explorer/datavizapp.html`
 **▶ On Tableau Public:** `<link to your Tableau Public viz>`
  
 Designed by **Serena Purslow** with **Claude**.
